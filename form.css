@@ -20,3 +20,17 @@ h1 {
   display: grid;
   grid-template-columns: 210px 1fr;
 }
+@media(max-width:800px){
+  #grid {
+  display: block;
+  }
+  #grid .menu {
+  border-right: none; width: auto;
+  background-color: rgb(255, 249, 237);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+  h1 {
+  font-size: 35px;
+  }
+}
